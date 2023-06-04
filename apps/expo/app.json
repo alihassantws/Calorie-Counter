@@ -1,0 +1,86 @@
+{
+  "expo": {
+    "name": "CalorieCounter",
+    "owner": "atlas-apps",
+    "slug": "calorie-counter",
+    "version": "1.0.0",
+    "scheme": "caloriecounter",
+    "orientation": "portrait",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "icon": "./assets/images/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff",
+      "image": "./assets/images/adaptive-icon.png"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.atlas.caloriecounter",
+      "supportsTablet": false,
+      "buildNumber": "1",
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "This identifier will be used to deliver personalized ads to you."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.atlas.caloriecounter",
+      "versionCode": 1,
+      "googleServicesFile": "./google-services.json"
+    },
+    "web": {
+      "config": {
+        "firebase": {
+          "apiKey": "AIzaSyA0aRaC6jcj3G8IfB79El-b8Uk4YJ37I-g",
+          "authDomain": "calorie-counter-450e5.firebaseapp.com",
+          "projectId": "calorie-counter-450e5",
+          "storageBucket": "calorie-counter-450e5.appspot.com",
+          "messagingSenderId": "692200635279",
+          "appId": "1:692200635279:web:61caf65449e48855b3a9fa",
+          "measurementId": "G-5BXSFJM4M5"
+        }
+      }
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 31,
+            "targetSdkVersion": 31,
+            "buildToolsVersion": "31.0.0"
+          },
+          "ios": {
+            "deploymentTarget": "13.0"
+          }
+        }
+      ],
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier will be used to deliver personalized ads to you."
+        }
+      ],
+      
+      
+      [
+        "expo-apple-authentication"
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "770bcbd3-48ec-4342-b98a-d80952d9bf38"
+      }
+    }
+  }
+}

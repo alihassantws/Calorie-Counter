@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "692200635279",
+    "project_id": "calorie-counter-450e5",
+    "storage_bucket": "calorie-counter-450e5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692200635279:android:1ff7d2ec9a72129bb3a9fa",
+        "android_client_info": {
+          "package_name": "com.atlas.caloriecounter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "692200635279-20n5h34iqlg1edvq62e4gk2q1dg6t2um.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBI6SfxKF3OIPwsfnZ4rnr_WMizuo0E9ew"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "692200635279-20n5h34iqlg1edvq62e4gk2q1dg6t2um.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "692200635279-3i9p7rb2l9lips1cjpe88klddmldn89u.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.atlas.caloriecounter",
+                "app_store_id": "6446294597"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
